@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>#04 - Input and Ouput Operations - Code Hub</title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+        <link rel="stylesheet" href="style.css">
+    
+        <!--Font Awesome (for icons)-->
+        <script src="https://kit.fontawesome.com/821706cb87.js" crossorigin="anonymous"></script>
+    
+        <!--Animate CSS-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+        <!--Google Fonts-->
+   
+</head>
+<body>
+
+  <!--navbar-->
+  <div>
+    <nav 
+    style="min-height: 111px; "
+    class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+          <div class="container-fluid">
+            <a class="navbar-brand titlewebpage" href="../index.html">
+              <img src="../media/logo.jpg" width="100px" class="rounded-circle">
+              CodeHub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item btn-outline-danger">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+               <!-- <li class="nav-item btn-outline-info">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle btn-outline-info" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tutorials
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../python.html">Python</a></li>
+                    <!--<li><a class="dropdown-item" href="#">Android dev</a></li>
+                   <li><a class="dropdown-item" href="#">Web dev</a></li>-->
+                  </ul>
+                </li>
+                <li class="nav-item btn-outline-warning">
+                    <a class="nav-link" aria-current="page" href="../projects.html">Projects</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav ml-auto">
+
+                  <li class="nav-item btn-outline-success">
+                      <a class="nav-link" aria-current="page" href="https://www.youtube.com/channel/UCzOqZOhMa6NsdVtUbjt1xAw">
+                        <i class="fa fa-youtube" aria-hidden="true">
+                          Youtube
+                        </i>
+                      </a>
+                    </li>
+                    <li class="nav-item btn-outline-primary">
+                      <a class="nav-link" href="https://www.instagram.com/mr.m_y_s_t_e_r_y/">
+                        <i class="fa fa-instagram" aria-hidden="true">
+                          Instagram
+                        </i>
+                      </a>
+                    </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+    </div>
+  </div>
+
+<div class="container">
+    <h1 style="margin-top: 188px;">
+        #04 - Input and Ouput Operations 
+      </h1>
+</div>
+
+<div class="container">
+  Input and Output Opetations  
+
+	Inorder to interact with the users the program needs inputs and outputs statements
+	for example take a calculator :
+		we give numbers and operations as input and it gives the result as an output,
+		In python we have those statements know as:
+			1.input()
+			2.print()
+
+print() statements:
+	As the name suggests the print statements prints the output to the screen , and so it is known as a output statement.
+	SYNTAX:
+		print(statement)
+	a syntax can be considered as a formula to write a speific statement
+	here the syntax states that the keyword print() 
+	statement refers to the statemenst or the expression to be printed
+	
+	EXAMPLE:
+		print(030)  		- output => 030
+		print(03.32) 		- output => 03.32
+		print('code hub')	- output => code hub
+		priny('code hub', 01)   - output => code hub 01
+
+	NOTE: comma(,) is use to seperate two different datatypes that is to be printed in a single 
+	      print() statement
+
+input() statements:
+	so, inorder to get the input from the user you need a input statement  
+	SYNTAX:
+		variable = input(prompt)
+	so the as the syntax says, anything that we type is observed by the input statement and then 
+	it is stored in the varibale
+	prompt = prompt is nothing but the statment that is printed for the understanding of the user 
+	for example :
+		consider the following code,
+		num = input()
+
+		in the output you just see the curser blinking but you don't know what you should enter,
+		you may enter your name , age , something link that,  to prevent those 	
+		confusion we can write the following code
+		print('enter a number : ')
+		num = input()
+
+		so now in the output screen you can see a statement that says to enter a number , so 
+		now you know what you should enter BUT,
+		insted of writtin print() and then input() we can write like the following
+		
+		num = input('enter a number')
+
+		so now the output screen shows the same output screen as the before statement but we 
+		did the same thing in a single like 
+		that single line is known as prompt , so anything within that '' inside the input() 
+		will be printed for the user understanding..
+
+
+EXAMPLE FOR BOTH INPUT AND PRINT STATEMENT:
+	name = input('enter your name: ')
+	print('hello and welcome to code hub',name)
+
+	so the above code give the output link as follows:
+	
+	enter your name: sriram
+	hello and welcome to code hub sriram
+</div>
+
+
+
+
+
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+          <p class="footerlinks">
+              <a href="https://www.youtube.com/channel/UCzOqZOhMa6NsdVtUbjt1xAw">
+                <i class="fa fa-youtube" aria-hidden="true">
+                  Youtube  
+                </i>
+              </a>
+              <a href="https://www.instagram.com/mr.m_y_s_t_e_r_y/">
+                <i class="fa fa-instagram" aria-hidden="true">
+                   Instagram
+                </i>
+              </a>
+          </p>
+  
+          <br>
+  
+          <p>
+            <i class="fas fa-copyright" style="float: right;">
+               CodeHub Inc.
+            </i>
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+        <!--Parallax Effect-->
+        <script src="parallax.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+</body>
+</html>
