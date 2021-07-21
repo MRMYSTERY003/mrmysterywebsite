@@ -1,0 +1,60 @@
+.parallax{
+    min-height: 400px;
+}
+
+h2{
+    font-size: 55px;
+}
+
+
+ol{
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+@media (max-width:450px) {
+    .parallax{
+        min-height: 280px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    ol{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:880px){
+    .header{
+        font-size: 55px;
+        padding: 0 auto;
+    }
+}
+
+
+.footer{
+    width: 100%;
+    min-height: 70px;
+    background-image: linear-gradient(to bottom right,rgb(50, 255, 238),#0080ff);
+    }
+  .footerlinks{
+    text-decoration: none;
+  }
+  .footerlinks a{
+    padding: 20px 15px;
+    text-decoration: none;
+    color: blueviolet;
+    float: left;
+  }
+  .footerlinks a:hover{
+    background-color: cornflowerblue;
+  }
