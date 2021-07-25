@@ -2,15 +2,6 @@
     min-height: 400px;
 }
 
-h2{
-    font-size: 45px;
-}
-
-
-ol{
-    font-size: 18px;
-}
-
 ul{
     list-style: none;
 }
@@ -18,18 +9,6 @@ ul{
 @media (max-width:450px) {
     .parallax{
         min-height: 280px;
-    }
-
-    h2{
-        font-size: 35px;
-    }
-    
-    p{
-        font-size: 20px;
-    }
-    
-    ol{
-        font-size: 15px;
     }
 }
 
