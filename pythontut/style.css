@@ -5,7 +5,7 @@
     background-image: linear-gradient(to bottom right,rgb(50, 255, 238),#0080ff);
     }
   .footerlinks a{
-    padding: 20px 10px;
+    padding: 20px 5px;
     text-decoration: none;
     color: blueviolet;
     float: left;
